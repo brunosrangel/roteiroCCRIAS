@@ -1,0 +1,117 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcdcdc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hero-text {
+  margin-top: 1rem;
+  color: #444;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+
+  .hero-text {
+    margin-top: 0;
+    max-width: 400px;
+    text-align: left;
+  }
+}
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background: white;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      text-decoration: none;
+      color: black;
+      transition: transform 0.2s ease;
+      display: block;
+    }
+    .card:hover {
+      transform: scale(1.01);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: #4caf50;
+    }
+    .card p {
+      margin: 0.5rem 0 0;
+      color: #555;
+    }
+    section {
+      background: white;
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+      margin-top: 0;
+    }
+    .rota {
+      margin-bottom: 2rem;
+    }
+    .rota p {
+      margin: 0.5rem 0;
+    }
+    .link-maps {
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    #btnTopo {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+#btnTopo:hover {
+  background-color: #555;
+}
