@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrossel de Roupas Sagradas</title>
+  <link rel="stylesheet" href="assets/css/carrossel.css" />
+  <script src="assets/js/carrossel.js" defer></script>
+</head>
+<body>
+
+  <h1>Trajes para as Águas de Ọ̀ṣàálà</h1>
+
+<div class="carousel">
+  <img src="assets/img/IMG-20250610-WA0139.jpg" alt="" data-index="0" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0138.jpg" alt="" data-index="1" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0140.jpg" alt="" data-index="2" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0137.jpg" alt="" data-index="3" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0136.jpg" alt="" data-index="4" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0135.jpg" alt="" data-index="5" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0133.jpg" alt="" data-index="6" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0134.jpg" alt="" data-index="7" onclick="abrirLightbox(this)" />
+  <img src="assets/img/IMG-20250610-WA0141.jpg" alt="" data-index="8" onclick="abrirLightbox(this)" />
+</div>
+<!-- Lightbox com setas -->
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="fecharLightbox()">✕</span>
+  <span class="arrow left" onclick="anterior()">❮</span>
+  <img id="lightbox-img" src="" alt="Imagem Ampliada" />
+  <span class="arrow right" onclick="proximo()">❯</span>
+</div>
+
+</body>
+</html>
