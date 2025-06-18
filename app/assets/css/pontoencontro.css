@@ -1,0 +1,78 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        .contatos {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .whatsapp-link {
+            background-color: #25d366;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .whatsapp-link:hover {
+            background-color: #1ebe5b;
+        }
+
+        .whatsapp-link img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .encontro {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .encontro h2 {
+            color: #4caf50;
+            margin-top: 0;
+        }
+
+        .encontro p {
+            margin: 0.5rem 0;
+            color: #555;
+            font-size: 16px;
+        }
+
+        .encontro a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .encontro a:hover {
+            text-decoration: underline;
+        }
